@@ -1,2 +1,7 @@
+<!-- 轮播图 -->
+<my-swiper list = "{{banner}}"/>
 
-<text> 你好啊 小程序</text>
+
+<!-- 推荐 -->
+
+<my-recommend  recommend = "{{recommend}}" />
