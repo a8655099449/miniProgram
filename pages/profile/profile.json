@@ -1,4 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "my-login":"./childComs/my-login"
+
+
+  },
   "navigationBarTitleText": "个人中心"
 }

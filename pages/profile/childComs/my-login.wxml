@@ -1,0 +1,12 @@
+<!--pages/profile/childComp/my-login.wxml-->
+<view>
+  <view>
+    <text>账号</text>
+    <input class="inp" bindinput="changeAcc"  />
+  </view>
+  <view>
+    <text>密码</text>
+    <input class="inp" password bindinput="changePwd" />
+  </view>
+  <button bindtap="login">登录</button>
+</view>
