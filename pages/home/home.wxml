@@ -5,3 +5,18 @@
 <!-- 推荐 -->
 
 <my-recommend  recommend = "{{recommend}}" />
+
+<!-- 流行 -->
+<my-pop />
+
+
+<!-- 切换分区导航 -->
+<my-tab-control  titles="{{['流行','最新','爆款']}}" bind:tabclick="handleTabClick" />
+
+
+<!-- 商品数据 -->
+
+<my-goods goods="{{goods[goodsType].list}}" />
+
+<!-- 回到顶部 -->
+<my-back-top bind:tap="backTop" wx:if="{{backTopShow}}" />

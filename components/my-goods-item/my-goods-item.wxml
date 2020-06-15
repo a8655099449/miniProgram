@@ -1,0 +1,14 @@
+<!--components/my-goods-item/my-goods-item.wxml-->
+<view class="goods-item">
+  <image src="{{item.show.img}}" class="image"> </image>
+  <view class="desc">
+    <view class="title text_row_1" >{{ item.title }}</view>
+    <view class="info">
+      <text class="price">￥{{item.price}}</text>
+      <image src="/assets/common/favor.png" class="icon" />
+      <text> {{item.cfav}}</text>
+    </view>
+  </view>
+</view>
+
+

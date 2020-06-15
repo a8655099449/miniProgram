@@ -6,11 +6,11 @@
     indicator-dots
     indicator-active-color="#ff5777"
     indicator-color="rgba(0,0,0,.1)"
-
+    class="swiper"
 > 
  <block wx:for="{{list}}" wx:key="index" >
-  <swiper-item>
-    <image src="{{item.image}}" mode="widthFix" />
+  <swiper-item class = "swiper-item">
+    <image src="{{item.image}}" mode="widthFix" class="swiper-img" />
   </swiper-item>
  </block>
 </swiper>

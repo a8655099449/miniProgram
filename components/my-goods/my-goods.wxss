@@ -1,0 +1,11 @@
+/* components/my-goods/my-goods.wxss */
+
+.goods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3px;
+}
+.goods-item{
+  width: 48%;
+}

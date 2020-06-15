@@ -1,0 +1,4 @@
+/* pages/home/childComs/my-pop/my-pop.wxss */
+.pop-img{
+  width: 100%;
+}

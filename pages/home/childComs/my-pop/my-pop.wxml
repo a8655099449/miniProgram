@@ -1,0 +1,5 @@
+<!--pages/home/childComs/my-pop/my-pop.wxml-->
+
+<view class="pop">
+  <image src="/assets/home/popular_bg.jpg" mode="widthFix"  class="pop-img"/>
+</view>
